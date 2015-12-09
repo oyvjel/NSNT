@@ -5,7 +5,8 @@ WriteMakefile (
     EXE_FILES    => [ qw(sn_ticketer.pl) ],
     PREREQ_PM => {
         "DBI" => 0,
-	"SOAP::Lite"  => 0,
+	"DBD::SQLite"  => 1.27, # http://zetcode.com/db/sqliteperltutorial/dbi/
+	"SOAP::Lite"  => 0.710.08,
 	"Config::INI::Reader"  => 0,
 	"Config::IniFiles"  => 0,
 	"Cwd"  => 0,
