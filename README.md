@@ -16,6 +16,9 @@ Pre-Install Requirements
 	- Digest::MD5
 	- Config::IniFiles
  	- Service-Now SOAP API must be enabled, refer to [Service-Now SOAP API documentation](http://wiki.servicenow.com/index.php?title=SOAP_Direct_Web_Service_API) for more details.
+ - REST
+	- SQLite3 if opting for sqlite db.
+ 	- Service-Now SOAP API must be enabled, refer to [Service-Now REST API documentation](http://wiki.servicenow.com/index.php?title=REST_API#gsc.tab=0) for more details.
 
 =========================================
 Project State
